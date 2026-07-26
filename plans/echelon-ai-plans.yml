@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.echelonai.com/pricing
+model: subscription tiers layered over consumption-based credits (tokens)
+free_trial: Complimentary two-week proof-of-concept, no credit card required
+plans:
+- name: Starter
+  audience: For teams testing the waters
+  limits: Up to 20 stories per month, one sandbox, 48-hour turnaround
+  support: Email support
+- name: Growth
+  audience: For teams scaling delivery
+  limits: Up to 75 stories per month, three sandboxes, 24-hour turnaround
+  support: Dedicated Slack access; SSO/RBAC
+- name: Enterprise
+  audience: For complex, multi-instance orgs
+  limits: Unlimited stories and environments, priority service levels
+  support: Named account manager

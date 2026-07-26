@@ -1,9 +1,33 @@
 aid: echelon-ai
 name: Echelon AI
-description: 'Echelon AI is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Echelon AI is an AI-workforce platform that automates ServiceNow platform
+  delivery and maintenance, acting as an AI teammate that writes stories, builds
+  catalog items, flows and apps, runs CMDB audits and migrations, and generates
+  Automated Test Framework (ATF) tests — delivering working artifacts live in a
+  customer's instance in hours rather than the traditional multi-month systems
+  integrator timeline. It is a ServiceNow Registered Build and Consulting/
+  Implementation partner covering ITSM, CMDB, HRSD, CSM, ITOM, SecOps and 30+
+  modules, connects to development or sub-production instances via OAuth 2.0,
+  logs every action for audit, and is sold as a consumption-based credit model
+  with Starter, Growth and Enterprise tiers. It is a Bain Capital Ventures
+  portfolio company in the ai-apps sector. Echelon AI publishes no public
+  developer API; this profile captures its identity, commercial and security
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/echelon-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://www.echelonai.com/images/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Apps
+- ServiceNow
+- Enterprise Software
+- Automation
+- AI Agents
+- IT Service Management
+- No Code
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.echelonai.com/
+- type: Blog
+  url: https://www.echelonai.com/blog
+- type: Pricing
+  url: https://www.echelonai.com/pricing
+- type: SignUp
+  url: https://www.echelonai.com/try-echelon
+- type: Support
+  url: https://www.echelonai.com/book-a-demo
+- type: PrivacyPolicy
+  url: https://www.echelonai.com/privacy-policy
+- type: Compliance
+  url: https://www.echelonai.com/security
+- type: Security
+  url: https://www.echelonai.com/security
+- type: TrustCenter
+  url: security/echelon-ai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/echelon-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/echelon-ai-domain-security.yml
+- type: Plans
+  url: plans/echelon-ai-plans.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
